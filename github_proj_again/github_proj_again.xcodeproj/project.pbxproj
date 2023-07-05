@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		46DF80432A55E85A0049F287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF80422A55E85A0049F287 /* AppDelegate.swift */; };
 		46DF80452A55E85A0049F287 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF80442A55E85A0049F287 /* SceneDelegate.swift */; };
-		46DF80472A55E85A0049F287 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF80462A55E85A0049F287 /* ViewController.swift */; };
-		46DF804A2A55E85A0049F287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DF80482A55E85A0049F287 /* Main.storyboard */; };
 		46DF804C2A55E85A0049F287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46DF804B2A55E85A0049F287 /* Assets.xcassets */; };
 		46DF804F2A55E85A0049F287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DF804D2A55E85A0049F287 /* LaunchScreen.storyboard */; };
 		46DF805A2A55E85B0049F287 /* github_proj_againTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF80592A55E85B0049F287 /* github_proj_againTests.swift */; };
 		46DF80642A55E85B0049F287 /* github_proj_againUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF80632A55E85B0049F287 /* github_proj_againUITests.swift */; };
 		46DF80662A55E85B0049F287 /* github_proj_againUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF80652A55E85B0049F287 /* github_proj_againUITestsLaunchTests.swift */; };
+		46EFF2FF2A55E9BD002781D0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFF2FE2A55E9BD002781D0 /* FirstViewController.swift */; };
+		46EFF3012A55E9CB002781D0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFF3002A55E9CA002781D0 /* SecondViewController.swift */; };
+		46EFF3032A55E9E2002781D0 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFF3022A55E9E2002781D0 /* NewsTableViewCell.swift */; };
+		46EFF3052A55E9E9002781D0 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46EFF3042A55E9E9002781D0 /* NewsTableViewCell.xib */; };
+		46EFF3072A55EA5E002781D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EFF3062A55EA5E002781D0 /* Main.storyboard */; };
+		46EFF3132A55F8BE002781D0 /* BFWControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EFF30F2A55F824002781D0 /* BFWControls.framework */; };
+		46EFF3142A55F8BE002781D0 /* BFWControls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46EFF30F2A55F824002781D0 /* BFWControls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,14 +38,40 @@
 			remoteGlobalIDString = 46DF803E2A55E85A0049F287;
 			remoteInfo = github_proj_again;
 		};
+		46EFF30E2A55F824002781D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EFF3092A55F824002781D0 /* BFWControls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E28BA9111E963F7800D5DE3D;
+			remoteInfo = BFWControls;
+		};
+		46EFF3102A55F824002781D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EFF3092A55F824002781D0 /* BFWControls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E28BA9BA1E964BED00D5DE3D;
+			remoteInfo = "BFWControls Demo";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46EFF3152A55F8BF002781D0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				46EFF3142A55F8BE002781D0 /* BFWControls.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		46DF803F2A55E85A0049F287 /* github_proj_again.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = github_proj_again.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DF80422A55E85A0049F287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46DF80442A55E85A0049F287 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		46DF80462A55E85A0049F287 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46DF80492A55E85A0049F287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46DF804B2A55E85A0049F287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46DF804E2A55E85A0049F287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46DF80502A55E85A0049F287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +80,12 @@
 		46DF805F2A55E85B0049F287 /* github_proj_againUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = github_proj_againUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DF80632A55E85B0049F287 /* github_proj_againUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_proj_againUITests.swift; sourceTree = "<group>"; };
 		46DF80652A55E85B0049F287 /* github_proj_againUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_proj_againUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46EFF2FE2A55E9BD002781D0 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		46EFF3002A55E9CA002781D0 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		46EFF3022A55E9E2002781D0 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		46EFF3042A55E9E9002781D0 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		46EFF3062A55EA5E002781D0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		46EFF3092A55F824002781D0 /* BFWControls.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BFWControls.xcodeproj; path = BFWControls/BFWControls.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EFF3132A55F8BE002781D0 /* BFWControls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				46DF80412A55E85A0049F287 /* github_proj_again */,
+				46EFF3082A55F651002781D0 /* Submodules */,
 				46DF80582A55E85B0049F287 /* github_proj_againTests */,
 				46DF80622A55E85B0049F287 /* github_proj_againUITests */,
 				46DF80402A55E85A0049F287 /* Products */,
+				46EFF3122A55F8BE002781D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +141,14 @@
 			children = (
 				46DF80422A55E85A0049F287 /* AppDelegate.swift */,
 				46DF80442A55E85A0049F287 /* SceneDelegate.swift */,
-				46DF80462A55E85A0049F287 /* ViewController.swift */,
-				46DF80482A55E85A0049F287 /* Main.storyboard */,
+				46EFF2FE2A55E9BD002781D0 /* FirstViewController.swift */,
+				46EFF3002A55E9CA002781D0 /* SecondViewController.swift */,
+				46EFF3062A55EA5E002781D0 /* Main.storyboard */,
 				46DF804B2A55E85A0049F287 /* Assets.xcassets */,
 				46DF804D2A55E85A0049F287 /* LaunchScreen.storyboard */,
 				46DF80502A55E85A0049F287 /* Info.plist */,
+				46EFF3022A55E9E2002781D0 /* NewsTableViewCell.swift */,
+				46EFF3042A55E9E9002781D0 /* NewsTableViewCell.xib */,
 			);
 			path = github_proj_again;
 			sourceTree = "<group>";
@@ -127,6 +170,30 @@
 			path = github_proj_againUITests;
 			sourceTree = "<group>";
 		};
+		46EFF3082A55F651002781D0 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				46EFF3092A55F824002781D0 /* BFWControls.xcodeproj */,
+			);
+			path = Submodules;
+			sourceTree = "<group>";
+		};
+		46EFF30A2A55F824002781D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46EFF30F2A55F824002781D0 /* BFWControls.framework */,
+				46EFF3112A55F824002781D0 /* BFWControls Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46EFF3122A55F8BE002781D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +204,7 @@
 				46DF803B2A55E85A0049F287 /* Sources */,
 				46DF803C2A55E85A0049F287 /* Frameworks */,
 				46DF803D2A55E85A0049F287 /* Resources */,
+				46EFF3152A55F8BF002781D0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +285,12 @@
 			mainGroup = 46DF80362A55E85A0049F287;
 			productRefGroup = 46DF80402A55E85A0049F287 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 46EFF30A2A55F824002781D0 /* Products */;
+					ProjectRef = 46EFF3092A55F824002781D0 /* BFWControls.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				46DF803E2A55E85A0049F287 /* github_proj_again */,
@@ -226,6 +300,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		46EFF30F2A55F824002781D0 /* BFWControls.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BFWControls.framework;
+			remoteRef = 46EFF30E2A55F824002781D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46EFF3112A55F824002781D0 /* BFWControls Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "BFWControls Demo.app";
+			remoteRef = 46EFF3102A55F824002781D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		46DF803D2A55E85A0049F287 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -233,7 +324,8 @@
 			files = (
 				46DF804F2A55E85A0049F287 /* LaunchScreen.storyboard in Resources */,
 				46DF804C2A55E85A0049F287 /* Assets.xcassets in Resources */,
-				46DF804A2A55E85A0049F287 /* Main.storyboard in Resources */,
+				46EFF3052A55E9E9002781D0 /* NewsTableViewCell.xib in Resources */,
+				46EFF3072A55EA5E002781D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46DF80472A55E85A0049F287 /* ViewController.swift in Sources */,
+				46EFF3012A55E9CB002781D0 /* SecondViewController.swift in Sources */,
+				46EFF2FF2A55E9BD002781D0 /* FirstViewController.swift in Sources */,
+				46EFF3032A55E9E2002781D0 /* NewsTableViewCell.swift in Sources */,
 				46DF80432A55E85A0049F287 /* AppDelegate.swift in Sources */,
 				46DF80452A55E85A0049F287 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +391,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46DF80482A55E85A0049F287 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46DF80492A55E85A0049F287 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46DF804D2A55E85A0049F287 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,0 +1,3 @@
+[submodule "github_proj_again/Submodules/BFWControls"]
+	path = github_proj_again/Submodules/BFWControls
+	url = https://github.com/BareFeetWare/BFWControls.git

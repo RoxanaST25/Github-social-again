@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
-//  github_proj_again
+//  FirstViewController.swift
+//  Social
 //
-//  Created by Main User on 2023-07-05.
+//  Created by Main User on 2023-06-26.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
