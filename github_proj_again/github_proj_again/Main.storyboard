@@ -194,7 +194,7 @@
                         <sections>
                             <tableViewSection id="KoR-Js-OfV">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="0x8-gE-2kM" detailTextLabel="YUf-Ue-rLl" imageView="B4A-bO-lwY" style="IBUITableViewCellStyleSubtitle" id="bN3-Y3-Qbp">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="0x8-gE-2kM" detailTextLabel="YUf-Ue-rLl" imageView="B4A-bO-lwY" style="IBUITableViewCellStyleSubtitle" id="bN3-Y3-Qbp" customClass="NewsTableViewCell" customModule="github_proj_again" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bN3-Y3-Qbp" id="AbD-Db-0RC">
@@ -225,29 +225,29 @@
                                             <segue destination="mvg-eu-Hea" kind="show" id="dG1-2a-fyL"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Zpn-5K-bOw" detailTextLabel="SWu-CZ-dI4" imageView="waJ-8J-gDU" style="IBUITableViewCellStyleSubtitle" id="dft-xs-OYf">
-                                        <rect key="frame" x="0.0" y="93.666667938232422" width="393" height="43.666667938232422"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Zpn-5K-bOw" detailTextLabel="SWu-CZ-dI4" imageView="waJ-8J-gDU" rowHeight="47" style="IBUITableViewCellStyleSubtitle" id="dft-xs-OYf">
+                                        <rect key="frame" x="0.0" y="93.666667938232422" width="393" height="47"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dft-xs-OYf" id="0pL-IG-tVy">
-                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="47"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Legos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zpn-5K-bOw">
-                                                    <rect key="frame" x="58.999999999999986" y="6.0000000000000009" width="34.333333333333336" height="14.333333333333334"/>
+                                                    <rect key="frame" x="58.999999999999986" y="8" width="34.333333333333336" height="14.333333333333334"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Another Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SWu-CZ-dI4">
-                                                    <rect key="frame" x="58.999999999999993" y="22.333333333333336" width="79.333333333333329" height="14.333333333333334"/>
+                                                    <rect key="frame" x="58.999999999999993" y="24.333333333333336" width="79.333333333333329" height="14.333333333333334"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="book" catalog="system" id="waJ-8J-gDU">
-                                                    <rect key="frame" x="20.666666666666664" y="12.666666666666666" width="22.666666666666668" height="17.666666666666668"/>
+                                                    <rect key="frame" x="20.666666666666664" y="14.333333333333334" width="22.666666666666668" height="17.666666666666668"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -265,7 +265,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W3V-rR-CWt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1514" y="-811"/>
+            <point key="canvasLocation" x="1513.7404580152672" y="-811.26760563380287"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="bTb-he-9GL">
@@ -278,15 +278,15 @@
                         <sections>
                             <tableViewSection headerTitle="" id="ZLs-ds-uSE">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="wJM-np-RBu" rowHeight="97" style="IBUITableViewCellStyleDefault" id="Wie-Su-Xm2" customClass="NewsTableViewCell" customModule="Social" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="97"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="wJM-np-RBu" rowHeight="181" style="IBUITableViewCellStyleDefault" id="Wie-Su-Xm2" customClass="NewsTableViewCell" customModule="github_proj_again" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="181"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wie-Su-Xm2" id="IoP-gy-DBt">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="97"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wie-Su-Xm2" id="IoP-gy-DBt" customClass="NibTableViewCell" customModule="BFWControls">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="181"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Lego Block Chain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wJM-np-RBu">
-                                                    <rect key="frame" x="20" y="0.0" width="353" height="97"/>
+                                                    <rect key="frame" x="20" y="0.0" width="353" height="181"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                                     <nil key="textColor"/>
@@ -295,15 +295,15 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="QTl-Ec-uTo" style="IBUITableViewCellStyleDefault" id="7W4-rY-R8x">
-                                        <rect key="frame" x="0.0" y="147" width="393" height="43.666667938232422"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="QTl-Ec-uTo" rowHeight="107" style="IBUITableViewCellStyleDefault" id="7W4-rY-R8x">
+                                        <rect key="frame" x="0.0" y="231" width="393" height="107"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7W4-rY-R8x" id="KRH-77-8C5">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="107"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Adding Lego Blocks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QTl-Ec-uTo">
-                                                    <rect key="frame" x="20" y="0.0" width="353" height="43.666667938232422"/>
+                                                    <rect key="frame" x="20" y="0.0" width="353" height="107"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                                     <nil key="textColor"/>
